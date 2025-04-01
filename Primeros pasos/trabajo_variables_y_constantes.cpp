@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    string nombre = "Juan";
+    const string nombre = "Juan";
 
     int edad{21};
 
@@ -16,7 +16,7 @@ int main() {
 
     cin >> edad;
 
-    nombre = "Ana";
+    // nombre = "Ana";
 
     cout << "----------------------------------" << endl;
 
