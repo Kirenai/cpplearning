@@ -3,4 +3,5 @@ project(Curso_C__)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Curso_C__ main.cpp)
+add_executable(Curso_C__ main.cpp
+        oop/class/Persona.cpp)

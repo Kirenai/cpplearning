@@ -1,5 +1,7 @@
 #include <iostream>
 
+#include "oop/class/Persona.h"
+
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
@@ -15,6 +17,9 @@ int main() {
         // <shortcut actionId="ToggleLineBreakpoint"/>.
         std::cout << "i = " << i << std::endl;
     }
+
+    Persona persona("Sonia", 25);
+    persona.mostrarEdad();
 
     return 0;
 }
