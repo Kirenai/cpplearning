@@ -6,6 +6,6 @@ int main() {
 
     pointer = array;
     for (int i = 0; i < 5; i++) {
-        printf("address value: %d\n", (pointer + i));
+        printf("address value: %d\n", *(pointer + i));
     }
 }
